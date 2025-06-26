@@ -4,7 +4,7 @@
  */ {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "cloudflare-test",
-	"main": "src/app/page.tsx",
+	"main": "src/index.ts",
 	"compatibility_date": "2025-06-26",
 	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
 	"observability": {
