@@ -1,5 +1,5 @@
 export default {
-	fetch: async (request: Request, env: any, ctx: any) => {
+	fetch: async () => {
 		return new Response("Hello from Cloudflare Worker!");
 	}
 };
