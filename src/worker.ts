@@ -1,5 +1,5 @@
-import { default as handler } from "../.vercel/output/static/_worker.js/index.js";
-
 export default {
-	fetch: handler.fetch,
+	fetch: async (request: Request, env: any, ctx: any) => {
+		return new Response("Hello from Cloudflare Worker!");
+	}
 };
